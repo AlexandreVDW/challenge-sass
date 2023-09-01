@@ -1,0 +1,122 @@
+/*Variables Color */
+/*Variable padding*/
+/*Box-Shadow*/
+/*Advantages gradient*/
+li:nth-child(1n+1) {
+  background-color: #ffae1a;
+  color: lighten #000, 5%;
+}
+
+li:nth-child(1n+2) {
+  background-color: #ffb733;
+  color: lighten #000, 10%;
+}
+
+li:nth-child(1n+3) {
+  background-color: #ffc04d;
+  color: lighten #000, 15%;
+}
+
+li:nth-child(1n+4) {
+  background-color: #ffc966;
+  color: lighten #000, 20%;
+}
+
+li:nth-child(1n+5) {
+  background-color: #ffd280;
+  color: lighten #000, 25%;
+}
+
+li:nth-child(1n+6) {
+  background-color: #ffdb99;
+  color: lighten #000, 30%;
+}
+
+header h1 {
+  color: #BF4080;
+  text-align: center;
+}
+
+body {
+  font: 100% "Space Mono", monospace;
+  color: #6b717f;
+  margin: 0;
+  padding: 16px;
+  background-color: #fff;
+  overflow-x: hidden;
+}
+
+main {
+  padding: 0 16px;
+}
+main .messages, main .messages .success, main .messages .warning, main .messages .error {
+  padding: 16px;
+}
+main .messages .success, main .messages .warning, main .messages .error {
+  border: 1px solid #8C8C8C;
+  color: #fff;
+  background-color: green;
+}
+main .messages .error {
+  background-color: red;
+}
+main .messages .error:hover {
+  background-color: green;
+}
+main .messages .warning {
+  background-color: orange;
+}
+
+article {
+  display: flex;
+  flex-wrap: wrap;
+}
+article section {
+  flex-grow: 1;
+  flex-basis: 45%;
+  border: 1px #8C8C8C solid;
+  box-shadow: 10px 10px 15px -4px #6b717f;
+  padding: 16px;
+  margin: 16px;
+  clear: both;
+  overflow: auto;
+  box-sizing: border-box;
+}
+article section h2 {
+  color: #BF4080;
+}
+article section code {
+  background: #000;
+  border: 1px solid #6b717f;
+  color: #fff;
+  page-break-inside: avoid;
+  font-family: monospace;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 1.6em;
+  max-width: 100%;
+  overflow: auto;
+  padding: 16px;
+  display: block;
+  word-wrap: break-word;
+}
+article section .before {
+  float: left;
+  width: 40%;
+}
+article section .after {
+  float: right;
+  width: 40%;
+}
+article #selling-points {
+  flex-grow: 2;
+  flex-basis: 100%;
+}
+
+footer h3 {
+  color: #BF4080;
+  text-align: center;
+  font-size: 1.5em;
+  padding: 32px;
+  margin-bottom: 0px;
+}/*# sourceMappingURL=styles.css.map */

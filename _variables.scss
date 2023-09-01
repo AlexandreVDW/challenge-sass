@@ -1,0 +1,23 @@
+/*Variables Color */
+$color_bluegrey:#6b717f;
+$color_grey:#8C8C8C;
+$color_black:#000;
+$color_magenta:#BF4080;
+$color_white:#fff;
+$color_green:green;
+$color_red:red;
+$color-orange:orange;
+
+/*Variable padding*/
+$padding_general:16px;
+
+/*Box-Shadow*/
+$box_shadow:10px 10px 15px -4px;
+
+/*Advantages gradient*/
+@for $i from 1 through 6 {
+    li:nth-child(1n + #{$i}) {
+      background-color: lighten($color-orange, $i * 5%);
+      color: lighten ($color_black, $i * 5%)
+    }
+  }
